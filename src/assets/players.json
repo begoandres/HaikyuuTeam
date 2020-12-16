@@ -1,0 +1,380 @@
+{
+    "items": [
+        {
+            "name": "Hinata",
+            "color": "warning",
+            "children": [
+                {       
+                    "number": "10",
+                    "position": "Middle Blocker",
+                    "year": "1",
+                    "photo": "https://media.tenor.com/images/3df2ee07dedb0def5d2e62e0ed220ead/tenor.png",
+                    "info": "The main character in the show. He got into volleyball as inspiration from the Little Giant, a former player in Karasuno who wasn't tall (like him) but still became the ace. He didn't have proper practice until high school so everyone picks on him but his speed, senses and jumping power impresses everyone as he starts becoming the secret weapon of the team."
+                }
+
+            ]
+        },
+        {
+            "name": "Kageyama",
+            "color": "warning",
+            "children": [
+                {          
+                    "number": "9",
+                    "position": "Setter", 
+                    "year": "1",     
+                    "photo": "https://data.whicdn.com/images/342369231/original.jpg",
+                    "info": "The other main character in the show. He plays against Hinata in middle school and his teams destroys Hinata's. They become rivals after Hinata constatnly tries to catch up to him, but they end up working great together. He's insanely talented and accurate but struggles with communication."
+                }
+
+            ]
+        },
+        {
+            "name": "Daichi",
+            "color": "warning",
+            "children": [
+                {         
+                    "number": "1",
+                    "position": "Wing spiker - Captain", 
+                    "year": "3",       
+                    "photo": "https://i.pinimg.com/564x/7c/2a/39/7c2a39561a12fd5fa9d8bd193a44faba.jpg",
+                    "info": "Very consistent, overall well rounded player. Very reliable in defense here the team lacks. He's a great leader and everyone looks up to him."
+                }
+
+            ]
+        },
+        {
+            "name": "Nishinoya",
+            "color": "warning",
+            "children": [
+                {      
+                    "number": "4",
+                    "position": "Libero", 
+                    "year": "2",          
+                    "photo": "https://www.mangozero.com/wp-content/uploads/2016/11/sport-anime-haikyuu.jpeg",
+                    "info": "Easily one of the most popular characters in Haikyuu. His taem calls him The Gardian Deity of Karasuno for his insanely talented, agile and impressive saves and receives. Withouthim, Karasuno's deffense is pretty much broken. Super energetic and fun."
+                }
+
+            ]
+        },
+        {
+            "name": "Sugawara",
+            "color": "warning",
+            "children": [
+                {              
+                    "number": "2",
+                    "position": "Setter", 
+                    "year": "3",  
+                    "photo": "https://i.ytimg.com/vi/ALS487XOTxw/maxresdefault.jpg",
+                    "info": "Also called Suga-mama by the fandom (like they call Dad-chi to Daichi). Together with the captain, he leads the team and takes care of the freshman. He becomes the mentor for the new setter, Kageyama, and guides him with his reliability and good social skills."
+                }
+
+            ]
+        },
+        {
+            "name": "Asahi",
+            "color": "warning",
+            "children": [
+                {            
+                    "number": "3",
+                    "position": "Wing Spiker - Ace", 
+                    "year": "3",      
+                    "photo": "https://pm1.narvii.com/5838/2c688ad2e1e74d1be0e8f640fdb59594c3e43609_hq.jpg",
+                    "info": "Against what his position and appereance say, he's a timid boy with lack of confidence, but when he's got the support of his team, he brings out his best potentian and can even break trough Date Ko's Iron Wall."
+                }
+
+            ]
+        },
+        {
+            "name": "Tanaka",
+            "color": "warning",
+            "children": [
+                {             
+                    "number": "5",
+                    "position": "Wing Spiker", 
+                    "year": "2",     
+                    "photo": "https://64.media.tumblr.com/067d09492798354d17bd1b3386a9b6ad/tumblr_otegfkizxR1sx6nf5o1_400.png",
+                    "info": "The kind of player that you would want in your team. His strong and funny personality takes pressure of everyone, and he's a reliable upperclassment for all the freshman. A brute diamond with his strong spikes that will be able to lead the team with Nishinoya when the seniors leave."
+                }
+
+            ]
+        },
+        {
+            "name": "Tsukkishima",
+            "color": "warning",
+            "children": [
+                {             
+                    "number": "11",
+                    "position": "Middle Blocker", 
+                    "year": "1",     
+                    "photo": "https://pbs.twimg.com/profile_images/1203388623489568769/5Zg3o0qs_400x400.jpg",
+                    "info": "If salt was a person, it would look like Tsukki. He loves picking on Hinata and... everyone else. But he does it with a reason. Very smart player which combined with his height and recent fall in love with the sport brings amazing blocks that intimidate even Ushiwaka the ace from Shiratorizawa."
+                }
+
+            ]
+        },
+
+
+        {
+            "name": "Kenma",
+            "color": "danger",
+            "children": [
+                {   
+                    "number": "5",
+                    "position": "Setter", 
+                    "year": "2",               
+                    "photo": "https://i.pinimg.com/originals/0d/5c/c8/0d5cc8845fb763582e189fe83900c07d.jpg",
+                    "info": "Not the fittest player but he's very smart and observative and can take any team he analyzes down. The full team relies on his abilities. He's good friends with Hinata."
+                }
+
+            ]
+        },
+        {
+            "name": "Kuroo",
+            "color": "danger",
+            "children": [
+                {   
+                    "number": "1",
+                    "position": "Middle Blocker - Captain", 
+                    "year": "3",               
+                    "photo": "https://vignette.wikia.nocookie.net/sans-nagito/images/6/6e/Tetsur%C5%8D_Kuroo.jpg/revision/latest/window-crop/width/200/x-offset/176/y-offset/0/window-width/451/window-height/450?cb=20200718134913",
+                    "info": "very intelectual player who becomes a mentor to Tsukkishima as a middle blocker giving him essential advice to beat Ushiwaka. He brings the best out of Kenma and can coordinate the team like no one else."
+                }
+
+            ]
+        },
+        {
+            "name": "Inuoka",
+            "color": "danger",
+            "children": [
+                {   
+                    "number": "7",
+                    "position": "Middle Blocker", 
+                    "year": "1",               
+                    "photo": "https://64.media.tumblr.com/24da4030939943ac9c56253c6b838820/tumblr_oypzdypKu11vban4co3_1280.jpg",
+                    "info": "New player with an energetic attitude and great reflexes that becomes the first person ever to stop Hinata and Kageyama' special fast attack. As a freshman he has a lot of potential."
+                }
+
+            ]
+        },
+        {
+            "name": "Yaku",
+            "color": "danger",
+            "children": [
+                {   
+                    "number": "3",
+                    "position": "Libero", 
+                    "year": "3",               
+                    "photo": "https://i.pinimg.com/736x/80/a5/b2/80a5b223b6006758370abd08f7e4c2fe.jpg",
+                    "info": "Notice the eye pupiles they gave to all Nekoma players' eyes? they're very visible in this picture of Yaku, the libero of the team, who's saves and movements definitely remind of the flexibility and smoothness of cats. He'll get to the toughest shots with the least expected movement or limb you would think."
+                }
+
+            ]
+        },
+        {
+            "name": "Lev",
+            "color": "danger",
+            "children": [
+                {   
+                    "number": "11",
+                    "position": "Middle Blocker", 
+                    "year": "1",               
+                    "photo": "https://pbs.twimg.com/media/EL3UXt4UYAEZqNk.jpg",
+                    "info": "Coming from Russia and with his 6' 5'' as a freshmant he's pretty confident, but his teammates don't take him seriously for his clumsiness, even though he learns very fast and has lots of potential: just with his height, it's already very hard to pass him on the net."
+                }
+
+            ]
+        },
+
+
+        {
+            "name": "Oikawa",
+            "color": "secondary",
+            "children": [
+                {           
+                    "number": "1",
+                    "position": "Setter - Captain", 
+                    "year": "3",      
+                    "photo": "https://cdn.myanimelist.net/images/characters/6/245977.jpg",
+                    "info": "His playful personality is given to him by the confidence he earnd through being really hard on himself to be able to beat Kageyama. Very talented captain and overall strong player who's best weapon is a very powerful serve. When he gets overconfident Iwaizumi puts him in his place."
+                }
+
+            ]
+        },
+        {
+            "name": "Iwaizumi",
+            "color": "secondary",
+            "children": [
+                {       
+                    "number": "4",
+                    "position": "Wing Spiker", 
+                    "year": "3",          
+                    "photo": "https://i.pinimg.com/736x/e4/3a/d3/e43ad38a04b988c8a0fead03272ad863.jpg",
+                    "info": "Oikawa and him are a pack, and their strong bond makes an amazing connection and unspoken communication and motivation on the court. He tells Oikawa off when its needed like no one else so the team would fall appart without me. He also has to deal with Oikawa's jokes and childish comments off the court but he low key loves it."
+                }
+
+            ]
+        },
+        {
+            "name": "Watari",
+            "color": "secondary",
+            "children": [
+                {   
+                    "number": "7",
+                    "position": "Libero", 
+                    "year": "2",              
+                    "photo": "https://64.media.tumblr.com/5b591af66a371ca1382a98f5ded76b13/tumblr_p6m8gcSbwC1v47ah2o2_1280.png",
+                    "info": "Strong libero that became an inspiration to Nishinoya because of his setter background, that shows the versatility and overall well - grounded skills of the tree-mascot team. They are equilibrium."
+                }
+
+            ]
+        },
+        {
+            "name": "Mad Dog Kyoutani",
+            "color": "secondary",
+            "children": [
+                {       
+                    "number": "16",
+                    "position": "Wing Spiker", 
+                    "year": "1",          
+                    "photo": "https://image.myanimelist.net/ui/4xANNJZlKL2mFaM3ceJGQ-I7vPvy_OYIjVZMbykQJJ7Oovm3kEbLAdvZ9GZg-SOU",
+                    "info": "A last minute addition to Aoba Johsai who doesn't fall at all in the category of well-roundess and balance because of his crazy style and strong personality. His style is almost reckless but insanely powerful, and specially managed by Oikawa, who brings the best out of him, he's a scary oponent."
+                }
+
+            ]
+        },
+
+
+        {
+            "name": "Bokuto",
+            "color": "medium",
+            "children": [
+                {          
+                    "number": "4",
+                    "position": "Wing Spiker - Ace, captain", 
+                    "year": "3",      
+                    "photo": "https://i.ytimg.com/vi/YQ8VEeonVp4/maxresdefault.jpg",
+                    "info": "Who doesn't like Bokuto? The most fun guy you could be around. His assertive personality and ridiculously strong volleyball skills say it all: Captain AND ace. However, when he plays, he has mood swings, getting super depresed and unable to play sometimes, but that's when Akaashi comes in to save the day and bring the breathtaking spikes, serves and team-motivating spirit out of him again."
+                }
+
+            ]
+        },
+        {
+            "name": "Akaashi",
+            "color": "medium",
+            "children": [
+                {          
+                    "number": "5",
+                    "position": "Setter", 
+                    "year": "2",      
+                    "photo": "https://i.pinimg.com/originals/dd/ca/a9/ddcaa9828913c9d460e871f3661bb135.png",
+                    "info": "You would say he kind of is the captain behind the scenes. As a setter should, he knows his teammates like anyone else, and manages them perfectly adapting to Bokuto's mood swings. he is very reliable and smart."
+                }
+
+            ]
+        },
+        
+        {
+            "name": "Aone",
+            "color": "success",
+            "children": [
+                {         
+                    "number": "5",
+                    "position": "Middle Blocker", 
+                    "year": "2",       
+                    "photo": "https://64.media.tumblr.com/a7d593054b7338bb821441e4b921b419/tumblr_inline_o9qx7qVSos1s824io_540.png",
+                    "info": "Yes, he's scary. And huge. He's not the type of blocker you'd enjoy spiking against. Very intimidating and strong willed player that can take away the confidence of any spiker. He enjoys his challenge against little Hinata thought, and they create a respecful and special bond. He actually turns out to be a quiet and very sweet guy."
+                }
+
+            ]
+        },
+        {
+            "name": "Koganegawa",
+            "color": "success",
+            "children": [
+                {         
+                    "number": "7",
+                    "position": "Setter", 
+                    "year": "1",       
+                    "photo": "https://i.pinimg.com/originals/ee/00/89/ee00899334d85edc2f10d9f3f7875e5a.png",
+                    "info": "His name is hard to pronounce, even for our Kageyama (who accidentally called him Kanekogawa and became quite the meme). He is also a new addition to Date Ko. He fits their style with his height and great blocking, but he's a very cheerful guy who wants to learn and purposesly becomes a watcher with Hinata during training to observe and learn from their seniors. They become good friends and he look sup Hinata's learning spirit. With his attitude, he's becoming a great player."
+                }
+
+            ]
+        },
+
+        {
+            "name": "Ushiwaka",
+            "color": "light",
+            "children": [
+                {       
+                    "number": "1",
+                    "position": "Wing Spiker - Ace and captain", 
+                    "year": "3",          
+                    "photo": "https://pa1.narvii.com/6290/043818e8acd20424d0da9112244db1284bcd6255_hq.gif",
+                    "info": "One of the best players in the nation, even training for the under-18 Japan national selection. He is a symbol of strengh nationally and the image of his team. Insanely fit  and strong body with unstoppable lefty spikes and serves. Except for Tsukki, who smartly gets to his head and finds a way of defeating him. They full team works as support using him as the greatest unstoppable weapon to score."
+                }
+
+            ]
+        },
+        {
+            "name": "Goshiki",
+            "color": "light",
+            "children": [
+                {       
+                    "number": "8",
+                    "position": "Wing Spiker", 
+                    "year": "1",         
+                    "photo": "https://pbs.twimg.com/media/Cv8eHeCUAAAsA8r.jpg",
+                    "info": "Freshman in Shiratorizawa. He looks up to Ushiwaka like no one else and he's motivated and works super hard to beat him as fast as possible. He has a lot of potential and will definitely be the future ace of the team, but he still can't get to be aknowledged."
+                }
+
+            ]
+        },
+        {
+            "name": "Tendo",
+            "color": "light",
+            "children": [
+                {             
+                    "number": "5",
+                    "position": "Middle Blocker", 
+                    "year": "3",   
+                    "photo": "https://i.pinimg.com/originals/d3/5a/8c/d35a8c68a5853d0ab743dc90ee9deabc.png",
+                    "info": "They call him the guess-monster. He's a bit creepy but his funny personality and the back story to his appareance bullying that lead him to become the amazingly strong blocker he is will actually make you love him. As the name says, he's the best at analyzing the oponents patterns of attack and guessing their next moves, crushing their spirits by being constantly one-upped when least expected. As you can see, his style is completely the opposite from the iron wall, but still jsut as effective with only one person on the net."
+                }
+
+            ]
+        },
+
+        
+        {
+            "name": "Atsumu",
+            "color": "dark",
+            "children": [
+                {            
+                    "number": "7",
+                    "position": "Setter", 
+                    "year": "2",     
+                    "photo": "https://vignette.wikia.nocookie.net/sans-nagito/images/6/6f/Atsumu_Miya.png/revision/latest?cb=20200713023313",
+                    "info": "A little conceited, but for a good reason. Ridiculous skills that can easily do no-touch ace serves and set accurately and strongly to his teammates. He's not scared and continuously goes for the risk but with his well-based technique. His charisma has everyone follow him."
+                }
+
+            ]
+        },
+        {
+            "name": "Osamu",
+            "color": "dark",
+            "children": [
+                {            
+                    "number": "7",
+                    "position": "Setter", 
+                    "year": "2",     
+                    "photo": "https://i.pinimg.com/736x/96/dd/eb/96ddeb2ae2985d539d55e74069d795a1.jpg",
+                    "info": "You can definitely tell he's the chill twin. His calmness keeps his head and his brother's in the game. His instincts and talent let him try things that his brother suddenly demands on the spot during a point and he still nails them."
+                }
+
+            ]
+        }
+
+    ]
+
+}

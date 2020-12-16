@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
-  <ion-toolbar color="primary">
-    <ion-title class="ion-text-center">
-      G.O.A.T.
+  <ion-toolbar>
+    <ion-title>
+      Teams Tab
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -10,8 +10,8 @@
 
 
   <ion-header collapse="condense">
-    <ion-toolbar color="primary">
-      <ion-title size="large" class="ion-text-center" id="smalltitle">Notes</ion-title>
+    <ion-toolbar>
+      <ion-title size="large">Haikyuu Teams</ion-title>
     </ion-toolbar>
   </ion-header>
   
@@ -28,13 +28,13 @@
 
   <ion-list *ngFor="let item of information, let i = index;" class="accordeon-list" detail="false">
 
-    <ion-item tappable (click)="toggleSection(i)" [ngClass]="{'section-active': item.open, 'section': !item.open}" class="Team">
+    <ion-item tappable (click)="toggleSection(i)" [ngClass]="{'section-active': item.open, 'section': !item.open}" class="Team" color={{item.color}}>
+      <ion-icon slot="start" name="arrow-forward" *ngIf="!item.open"></ion-icon>
+      <ion-icon slot="start" name="arrow-down" *ngIf="item.open"></ion-icon>
+
       <ion-label>
         {{item.name}}
       </ion-label>
-      <ion-icon slot="end" name="caret-forward-outline" *ngIf="!item.open"></ion-icon>
-      
-      <ion-icon slot="end" name="caret-down-outline" *ngIf="item.open"></ion-icon>
 
     </ion-item>
 
@@ -43,42 +43,20 @@
 
     <div *ngIf="item.children && item.open">
       <ion-list *ngFor="let child of item.children; let j= index;" lines="none" class="child-list">
-        <ion-item tappable (click)="toggleItem(i, j)" [ngClass]="{'child-active': child.open, 'child': !child.open}" color="primary">
-          <ion-list>
-            <ion-item lines="none" color="primary">
-              <p class="teamInfo">
-                {{child.one}}
-              </p>
-            </ion-item>
-            <ion-item lines="none" color="primary">
-              <p class="teamInfo">
-                {{child.two}}
-              </p>
-            </ion-item>
-            <ion-item lines="none" color="primary">
-              <p class="teamInfo">
-                {{child.three}}
-              </p>
-            </ion-item>
-            <!-- <ion-item lines="none" color="primary">
-              <p class="teamInfo">
-                {{child.four}}
-              </p>
-            </ion-item> -->
-
-          </ion-list>
-
+        <ion-item tappable (click)="toggleItem(i, j)" [ngClass]="{'child-active': child.open, 'child': !child.open}">
+            <p class="teamInfo">
+              {{child.info}}
+            </p>
+            <div>
+              <ion-img src={{child.photo}} class="ProfilePic"></ion-img>
+            </div>
     
         </ion-item>
 
       </ion-list>
     </div>
 
+
   </ion-list>
-
-  <div class="ion-text-center">
-    <ion-button color="medium" class="endbutton">+</ion-button>
-  </div>
-
 
 </ion-content>

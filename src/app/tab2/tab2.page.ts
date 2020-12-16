@@ -15,7 +15,7 @@ export class Tab2Page {
   automaticClose = false;
 
   constructor( private http: HttpClient) {
-    this,http.get('../assets/drawingRefs.json').subscribe(res=> {
+    this,http.get('../assets/players.json').subscribe(res=> {
       this.information = res['items'];
 
       this.information[0].open = true;
