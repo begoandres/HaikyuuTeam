@@ -13,7 +13,7 @@ export class Tab1Page {
   automaticClose = false;
 
   constructor( private http: HttpClient) {
-    this,http.get('../assets/teams.json').subscribe(res=> {
+    this,http.get('../assets/notes.json').subscribe(res=> {
       this.information = res['items'];
 
       this.information[0].open = true;
