@@ -1,0 +1,83 @@
+{
+    "items": [
+        {
+            "name": "Karasuno",
+            "color": "warning",
+            "children": [
+                {                
+                    "photo": "https://karasunohb.kalisport.com/public/1904/upload/theme/kal-theme-favicon.jpg",
+                    "info": "The main team in the show. This small town group of players, with the crow as a symbol, were told their wings had ben cut. Now they're back stronger than ever with new risky strategies and motivated players. They specialize in attack, using Kageyama and Hinata's combo as their greatest weapon."
+                }
+
+            ]
+        },
+        {
+            "name": "Nekoma",
+            "color": "danger",
+            "children": [
+                {                
+                    "photo": "https://pm1.narvii.com/7361/513400dbaa5680d0e8ac8697fa16215c5659932er1-630-630v2_00.jpg",
+                    "info": "The biggest rival of Karasuno, even though they're a team from Tokyo. With cats as their mascot, they are the best rivals in the classic match, the Dumpster battle, against our main characters. Their style is fluid and flexible like a cat, specializing in defense through receiving and tiring the opponent through repetition."
+                }
+
+            ]
+        },
+        {
+            "name": "Aoba Johsai",
+            "color": "secondary",
+            "children": [
+                {                
+                    "photo": "https://ih1.redbubble.net/image.185607561.6255/st,small,507x507-pad,600x600,f8f8f8.jpg",
+                    "info": "The setter, Oikawa, has a huge rivalry with Karasuno's setter, Kageyama, due to their time playing together in high school. His skills and teasing will get Karasuno really fired up to play against them."
+                }
+
+            ]
+        },
+        {
+            "name": "Fukurodani",
+            "color": "medium",
+            "children": [
+                {                
+                    "photo": "https://i.pinimg.com/originals/09/60/31/09603141cc0e9ff0869626b88502e3bd.jpg",
+                    "info": "The team with owl mascot is based on the dinamic duo Akaashi-Bokuto . Specializing in attack, it's one of the best teams in Tokyo, and they attend training with Karasuno, becoming the mentors of some of the crows."
+                }
+
+            ]
+        },
+        {
+            "name": "Date Ko",
+            "color": "success",
+            "children": [
+                {                
+                    "photo": "https://ae01.alicdn.com/kf/H4eabf0cc85084c6190f22e6d66c49645A/Property-Of-Dateko-Date-Tech-Iron-Wall-Volleyball-Club-T-Shirt-Men-Cotton-Haikyuu-T-shirt.jpg_q50.jpg",
+                    "info": "Called the iron wall for their impressive defense. They specialize on blocking, having huge players with intimidating aura that overwhelm the opponent's spikes."
+                }
+
+            ]
+        },
+        {
+            "name": "Shiratorizawa",
+            "color": "light",
+            "children": [
+                {                
+                    "photo": "https://www.1999.co.jp/itbig41/10411147a2.jpg",
+                    "info": "Top academy in the prefacture. With the eagles as their mascot, you can only expect for them to be the royalty of volleyball. Huge attack team and strategy based on brute force and supporting their ace Ushiwaka."
+                }
+
+            ]
+        },
+        {
+            "name": "Inarizaki",
+            "color": "dark",
+            "children": [
+                {                
+                    "photo": "https://images-na.ssl-images-amazon.com/images/I/41aHsqpwHzL.jpg",
+                    "info": "The first top Tokyo team our main characters will play against in an official tournament. Being a finalist from nationals, it has the Miya twins Atsumu and Osamu leading the team with great strength and solid blocking, spiking and serving."
+                }
+
+            ]
+        }
+
+    ]
+
+}
