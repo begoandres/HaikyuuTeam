@@ -1,18 +1,18 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { TeamComponent } from './team/team.component';
-import { PlayersComponent } from './players/players.component';
+import { NotesComponent } from './notes/team.component';
+import { DrawingRefsComponent } from './drawingRefs/players.component';
 import { IonicModule } from '@ionic/angular';
 
 
 
 @NgModule({
-  declarations: [TeamComponent, PlayersComponent],
+  declarations: [NotesComponent, DrawingRefsComponent],
   imports: [
     CommonModule,
     IonicModule
   ],
-  exports: [TeamComponent, PlayersComponent]
+  exports: [NotesComponent, DrawingRefsComponent]
 
 })
 export class SharedComponentsModule { }
