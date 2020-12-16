@@ -1,71 +1,118 @@
 <ion-header [translucent]="true">
-  <ion-toolbar color="primary">
-    <ion-title class="ion-text-center">
-      G.O.A.T
+  <ion-toolbar>
+    <ion-title>
+      My Team Tab
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
-    <ion-toolbar color="primary">
-      <ion-avatar class="ion-text-center">
-        <img src="../assets/img/marta.png">
-      </ion-avatar>
-      <ion-title size="large" class="ion-text-center" id="smalltitle">Chapters</ion-title>
+    <ion-toolbar>
+      <ion-title size="large">My Team</ion-title>
     </ion-toolbar>
   </ion-header>
 
+  <ion-list>
+    <ion-list-header>
+      <ion-label>
+        Create your dream team
+      </ion-label>
+    </ion-list-header>
   
-  <ion-grid>
-    <ion-row>
-      <ion-col>
-        <ion-card class="chapter">
-          <div>
-            <img src="../assets/img/marta2.png">
-            Ch. 1 - Trip
-          </div>
-        </ion-card>
-      </ion-col>
-      <ion-col>
-        <ion-card class="chapter">
-          <img src="../assets/img/marta.png">
-          Ch. 2 - Arrival
-        </ion-card>
-      </ion-col>
-      <ion-col>
-        <ion-card class="chapter">
-          <img src="../assets/img/marta2.png">
-          Ch. 3 - Teammates
-        </ion-card>
-      </ion-col>
-    </ion-row>
-    <ion-row>
-      <ion-col>
-        <ion-card class="chapter">
-          <img src="../assets/img/teammates.png">
-          Ch. 4 - Classes Start
-        </ion-card>
-      </ion-col>
-      <ion-col>
-        <ion-card class="chapter">
-          <img src="../assets/img/marta3.png">
-          Ch. 5 - First Practices
-        </ion-card>
-      </ion-col>
-      <ion-col>
-        <ion-card class="chapter">
-          <img src="../assets/img/practices.png">
-          Ch. 6 - Celebrate
-        </ion-card>
-      </ion-col>
-    </ion-row>
-    
-  </ion-grid>
+    <ion-item>
+      <ion-label>Setter</ion-label>
+      <ion-select okText="Okay!">
+        <ion-select-option value="Kageyama">Kageyama</ion-select-option>
+        <ion-select-option value="Sugawara">Sugawara</ion-select-option>
+        <ion-select-option value="Oikawa">Oikawa</ion-select-option>
+        <ion-select-option value="Kenma">Kenma</ion-select-option>
+        <ion-select-option value="Atsumu">Atsumu</ion-select-option>
+        <ion-select-option value="Koganegawa">Koganegawa</ion-select-option>
+        <ion-select-option value="Akaashi">Akaashi</ion-select-option>
 
-  <div class="ion-text-center">
-    <ion-button color="medium" class="endbutton">+</ion-button>
-  </div>
+      </ion-select>
+    </ion-item>
+  
+    <ion-item>
+      <ion-label>Wing spiker 1</ion-label>
+      <ion-select okText="Got em!">
+        <ion-select-option value="Asahi">Asahi</ion-select-option>
+        <ion-select-option value="Tanaka">Tanaka</ion-select-option>
+        <ion-select-option value="Daichi">Daichi</ion-select-option>
+        <ion-select-option value="Iwaizumi">Iwaizumi</ion-select-option>
+        <ion-select-option value="Mad Dog">Mad Dog</ion-select-option>
+        <ion-select-option value="Bokuto">Bokuto</ion-select-option>
+        <ion-select-option value="Osamu">Osamu</ion-select-option>
+        <ion-select-option value="Ushiwaka">Ushiwaka</ion-select-option>
+        <ion-select-option value="Goshiki">Goshiki</ion-select-option>
+      </ion-select>
+    </ion-item>
+
+      
+    <ion-item>
+      <ion-label>Wing spiker 2</ion-label>
+      <ion-select>
+        <ion-select-option value="Asahi">Asahi</ion-select-option>
+        <ion-select-option value="Tanaka">Tanaka</ion-select-option>
+        <ion-select-option value="Daichi">Daichi</ion-select-option>
+        <ion-select-option value="Iwaizumi">Iwaizumi</ion-select-option>
+        <ion-select-option value="Mad Dog">Mad Dog</ion-select-option>
+        <ion-select-option value="Bokuto">Bokuto</ion-select-option>
+        <ion-select-option value="Osamu">Osamu</ion-select-option>
+        <ion-select-option value="Ushiwaka">Ushiwaka</ion-select-option>
+        <ion-select-option value="Goshiki">Goshiki</ion-select-option>
+      </ion-select>
+    </ion-item>
+
+
+    <ion-item>
+      <ion-label>Middle Blocker 1</ion-label>
+      <ion-select okText="Okay!">
+        <ion-select-option value="Hinata">Hinata</ion-select-option>
+        <ion-select-option value="Tsukkishima">Tsukkishima</ion-select-option>
+        <ion-select-option value="Aone">Aone</ion-select-option>
+        <ion-select-option value="Tendo">Tendo</ion-select-option>
+        <ion-select-option value="Lev">Lev</ion-select-option>
+        <ion-select-option value="Kuroo">Kuroo</ion-select-option>
+        <ion-select-option value="Inuoka">Inuoka</ion-select-option>
+
+      </ion-select>
+    </ion-item>
+  
+
+    <ion-item>
+      <ion-label>Middle Blocker 2</ion-label>
+      <ion-select okText="Okay!">
+        <ion-select-option value="Hinata">Hinata</ion-select-option>
+        <ion-select-option value="Tsukkishima">Tsukkishima</ion-select-option>
+        <ion-select-option value="Aone">Aone</ion-select-option>
+        <ion-select-option value="Tendo">Tendo</ion-select-option>
+        <ion-select-option value="Lev">Lev</ion-select-option>
+        <ion-select-option value="Kuroo">Kuroo</ion-select-option>
+        <ion-select-option value="Inuoka">Inuoka</ion-select-option>
+
+      </ion-select>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Libero</ion-label>
+      <ion-select okText="Ready!">
+        <ion-select-option value="Nishinoya">Nishinoya</ion-select-option>
+        <ion-select-option value="Yaku">Yaku</ion-select-option>
+        <ion-select-option value="Watari">Watari</ion-select-option>
+      </ion-select>
+    </ion-item>
+
+  
+  </ion-list>
+
+
+
+  <ion-card>
+    <ion-img  src="../assets/img/positions.png"></ion-img>
+  </ion-card>
+
 
 
 </ion-content>

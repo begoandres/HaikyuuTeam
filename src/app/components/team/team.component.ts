@@ -7,9 +7,9 @@ import { ToastController } from '@ionic/angular';
   templateUrl: './team.component.html',
   styleUrls: ['./team.component.scss'],
 })
-export class NotesComponent implements OnInit {
+export class TeamComponent implements OnInit {
 
-  @Input('note') note: any;
+  @Input('team') team: any;
 
   constructor(private toastCtrl: ToastController) { }
 

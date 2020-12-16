@@ -6,15 +6,15 @@ import { ToastController } from '@ionic/angular';
   templateUrl: './players.component.html',
   styleUrls: ['./players.component.scss'],
 })
-export class DrawingRefsComponent implements OnInit {
+export class PlayersComponent implements OnInit {
 
-  @Input('drawing') drawing: any;
+  @Input('player') player: any;
 
   constructor(private toastCtrl: ToastController) { }
 
   ngOnInit() {}
 
-  async buyItem(drawing) {
+  async buyItem(player) {
     let toast = await this.toastCtrl.create({
       message: 'Added to the cart: ${product.name}'
     });
